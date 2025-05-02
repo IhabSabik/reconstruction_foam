@@ -1,0 +1,165 @@
+Compute initial adjacencies...
+Threshold = 2  |  average face degree = 0.0
+Threshold = 3  |  average face degree = 7.674
+
+Check for isolated vertices...
+Initially isolated: 17
+Average face degree = 7.688
+Elapsed time: 1 hour and 7 minutes
+
+Add connections to endpoints of edges with low degree...
+Average face degree = 10.549
+Elapsed time: 1 hour and 8 minutes
+
+Compute the square holes in vertex links...
+
+Close the square holes in vertex links...
+Average face degree = 10.66
+Elapsed time: 1 minute and 8 seconds
+
+Compute candidate edges to be added to close the holes...
+Elapsed time: 57 minutes and 50 seconds
+
+Add short candidate edges to close the holes...
+Average face degree = 13.241
+Elapsed time: 5 hours and 42 minutes
+
+Add edges to avoid football pores...
+Average face degree = 13.596
+Elapsed time: 3 hours and 28 minutes
+
+Add edges of degree 3...
+Average face degree = 13.728
+Elapsed time: 43 minutes and 30 seconds
+
+Compute candidate edges within pseudoholes to be added...
+Elapsed time: 49 minutes and 50 seconds
+
+Add short candidate edges to close the pseudoholes...
+Average face degree = 13.743
+Elapsed time: 41 minutes and 53 seconds
+Remove excessive edges...
+Average face degree = 13.667
+Elapsed time: 44 minutes and 24 seconds
+
+Collect candidates to close all remaining holes...
+Elapsed time: 4 minutes and 34 seconds
+
+Add short candidate edges to close remaining holes...
+Average face degree = 13.743
+Elapsed time: 4 minutes and 12 seconds
+
+Collect candidates to close all remaining boundary holes...
+Elapsed time: 1 minute and 31 seconds
+
+Add short candidate edges to close remaining boundary holes...
+Average face degree = 13.75
+Elapsed time: 8 seconds
+
+Detect football pores and collect candidates to repair non-Hamiltonian links...
+
+Add short candidate edges to repair non-Hamiltonian links...
+Average face degree = 13.758
+Elapsed time: 2 minutes and 12 seconds
+
+Add exceptionally long edges...
+Compute the candidate edges...
+Add (probably long) candidate edges to close remaining holes...
+Average face degree = 13.758
+Elapsed time: 0 seconds
+5 interior vertices might still have holes in their links
+Elapsed time: 3 minutes and 10 seconds
+
+Remove excessive edges from 6-cliques...
+Compute the candidate edges...
+Remove excessive edges...
+Average face degree = 13.745
+Elapsed time: 15 minutes and 51 seconds
+
+Compute the list of interior vertices with repairable or proper links...
+# repairable: 950 out of 1104
+# proper: 919 out of 1104
+
+Change tunnels of 5-cliques...
+
+Compute the list of interior vertices with repairable or proper links...
+# repairable: 950 out of 1104
+# proper: 1018 out of 1104
+Elapsed time: 2 hours and 59 minutes
+
+Reconstruct the triangulation at a first try...
+Number of non-boundary edges: 8067, properly reconstructed at a first try: 98.09 %
+Number of interior edges: 5187, properly reconstructed at a first try: 98.42 %
+Elapsed time: 3 minutes and 47 seconds
+
+Apply a post process step to try to repair the triangulation...
+Number of non-boundary edges: 8067, properly reconstructed with a post process: 98.44 %
+Number of interior edges: 5187, properly reconstructed with a post process: 98.84 %
+Elapsed time: 1 minute and 49 seconds
+
+Change links of non-proper edges and detect football pores and multi-connected pores...
+Number of non-boundary edges: 8067, properly reconstructed after changing links of non-proper edges: 99.21 %
+Number of interior edges: 5187, properly reconstructed after changing links of non-proper edges: 99.61 %
+Number of multi-connected pores: 1 pair
+Number of non-properly reconstructed edges around football pores: 5
+Number of reconstructable non-boundary edges: 8061, properly reconstructed among reconstructable edges: 99.28 %
+Number of reconstructable interior edges: 5184, properly reconstructed after changing links of non-proper edges: 99.67 %
+Elapsed time: 3 hours and 26 minutes
+
+Change tunnels in the triangulation...
+Number of non-boundary edges: 8067, properly reconstructed after changing tunnels: 99.5 %
+Number of interior edges: 5187, properly reconstructed after changing tunnels: 99.73 %
+Number of reconstructable non-boundary edges: 8061, properly reconstructed among reconstructable edges: 99.58 %
+Number of reconstructable interior edges: 5184, properly reconstructed among reconstructable edges: 99.79 %
+
+Try to remove excessive edges to repair defect links...
+
+Multi-connected pairs of pores: 1
+Number of non-properly reconstructed edges around football pores: 5
+Non-boundary edges: 7823
+Edges in the strict interior: 4984
+Percentage of properly reconstructed edges (non-boundary) 99.78 %
+Percentage of properly reconstructed edges (strict interior) 99.98 %
+
+All pores: 1911
+All interior vertices: 994
+Reconstructable interior vertices (among reconstructables): 99.19 %
+Average face degree of interior pores = 13.723
+
+Elapsed time: 1 minute and 22 seconds
+
+4 vertices: 1.01%
+5 vertices: 2.12%
+6 vertices: 3.94%
+7 vertices: 3.24%
+8 vertices: 3.74%
+9 vertices: 6.37%
+10 vertices: 8.9%
+11 vertices: 8.49%
+12 vertices: 10.92%
+13 vertices: 9.5%
+14 vertices: 8.8%
+15 vertices: 6.37%
+16 vertices: 5.76%
+17 vertices: 4.95%
+18 vertices: 4.04%
+19 vertices: 3.03%
+20 vertices: 1.72%
+21 vertices: 1.62%
+22 vertices: 1.31%
+23 vertices: 0.91%
+24 vertices: 0.51%
+25 vertices: 0.4%
+26 vertices: 0.1%
+27 vertices: 0.1%
+28 vertices: 0.51%
+29 vertices: 0.2%
+30 vertices: 0.2%
+31 vertices: 0.3%
+32 vertices: 0.1%
+34 vertices: 0.3%
+38 vertices: 0.1%
+42 vertices: 0.1%
+59 vertices: 0.1%
+69 vertices: 0.1%
+107 vertices: 0.1%
